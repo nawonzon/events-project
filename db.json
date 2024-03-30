@@ -1,0 +1,60 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Event 1",
+      "description": "description 1",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "2",
+      "name": "Event 2",
+      "description": "description 2",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "3",
+      "name": "Event 3",
+      "description": "description 3",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "4",
+      "name": "Event 4",
+      "description": "description 4",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "c7c4",
+      "name": "DIALLO",
+      "description": "",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "80a8",
+      "name": "gravier blanc",
+      "description": "blablabla",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "93c5",
+      "name": "ciment",
+      "description": "",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "b0e3",
+      "name": "DIALLO",
+      "description": "blablabla",
+      "startDate": "",
+      "endDate": ""
+    }
+  ]
+}
