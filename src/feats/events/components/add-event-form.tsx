@@ -11,11 +11,17 @@ export function AddEventForm({ onAddEvent }: AddEventFormProps) {
   const {
     register,
     handleSubmit,
-    formState: { errors }
+    formState: { errors },
+    reset
   } = useForm<Event>()
 
+  const onSubmit = (data: Event) => {
+    onAddEvent(data)
+    reset()
+  }
+
   return (
-    <form onSubmit={handleSubmit(onAddEvent)}>
+    <form onSubmit={handleSubmit(onSubmit)}>
       <Input
         title="name :"
         {...register('name', { validate: required })}
@@ -34,5 +40,3 @@ export function AddEventForm({ onAddEvent }: AddEventFormProps) {
     </form>
   )
 }
-
-
