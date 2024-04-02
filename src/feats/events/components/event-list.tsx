@@ -10,7 +10,7 @@ export function EventList({ events }: EventListProps) {
   const navigate = useNavigate()
 
   return (
-    <>
+    <div>
       <h1>List event</h1>
       {events.map((event) => (
         <EventItem
@@ -19,6 +19,6 @@ export function EventList({ events }: EventListProps) {
           onClick={() => navigate(`/events/${event.id}`)}
         />
       ))}
-    </>
+    </div>
   )
 }
